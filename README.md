@@ -1,4 +1,4 @@
-# android Practical Utilities
+# Android Practical Utilities
 
 This library contains the most useful and practical Android utilities. if you have any question or suggestion you'r welcome to tell me.
 
@@ -77,4 +77,5 @@ CustomProgressDialog cpd = new CustomProgressDialog(yourContext, R.style.YOUR_ST
 ### This library is under development and many useful classes will be added in the future, it would be great if you fork this repository and help to extend it.  ;))
 
 
-#### Author Ali Babadi
+# Author
+#### Ali Babadi
