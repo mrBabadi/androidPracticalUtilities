@@ -40,8 +40,16 @@ stdRetrieved.getFamily();
 
 ## Warning
 please notice that for saving an object to sharedPreferences ***you have to add Gson Library in your project*** , 
-and also ***use GsonHelper class*** which i added in this repository.
+and also ***use GsonHelper class*** which i added in this repository **OtherUtilities/GsonHelper.java**.
+
 <a href= "https://futurestud.io/tutorials/gson-getting-started-with-java-json-serialization-deserialization">Gson Library</a>
 
-## CustomProgressDialog
+### GsonHelper (in OtherUtilities Directory)
+Singleton Gson easy to use
 
+```
+//call .toJson(object) with your object model to convert it To JSON
+String json = GsonHelper.toJson();
+//call .fromJson() to convert your json To your object model
+GsonHelper.fromJson(json,Class<?>);
+```
