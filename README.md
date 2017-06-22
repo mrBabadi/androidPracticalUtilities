@@ -54,5 +54,18 @@ String json = GsonHelper.toJson();
 GsonHelper.fromJson(json,Class<?>);
 ```
 
-### CustomProgressDialog class
+### CustomProgressDialog.class (in ProgressDialog Directory)
 
+create your own custom progress dialog with your view, theme style and text by using this class.
+```
+//Code Sample
+CustomProgressDialog cpd = new CustomProgressDialog(yourContext, yourView, viewWidth, viewHeight);
+cpd.setText("please wait...").setTypeFace(YOUR_TYPFACE).setTextColor("#FFF").setTextSize(25).setCancelable(false);
+cpd.show();
+
+//you can also pass your own Theme Style to the CustomProgressDialog constructor.
+CustomProgressDialog cpd = new CustomProgressDialog(yourContext, R.style.YOUR_STYLE, yourView, viewWidth, viewHeight);
+```
+#### Result
+
+![alt text](https://github.com/mrBabadi/androidPracticalUtilities/raw/master/custom_progress_dialog.png)
