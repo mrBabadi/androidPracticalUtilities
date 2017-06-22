@@ -53,3 +53,6 @@ String json = GsonHelper.toJson();
 //call .fromJson() to convert your json To your object model
 GsonHelper.fromJson(json,Class<?>);
 ```
+
+### CustomProgressDialog class
+
