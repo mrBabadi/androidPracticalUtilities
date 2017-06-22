@@ -75,3 +75,6 @@ CustomProgressDialog cpd = new CustomProgressDialog(yourContext, R.style.YOUR_ST
 #### and ConnectionDetector, CircularImageView.
 
 ### This library is under development and many useful classes will be added in the future, it would be great if you fork this repository and help to extend it.  ;))
+
+
+#### Author Ali Babadi
